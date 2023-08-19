@@ -2,6 +2,9 @@ FROM python:3.10.11
 
 ADD main.py .
 
+ENV TOKEN=value1
+ENV CHANNEL=value2
+
 RUN pip install nextcord
 
 CMD [ "python", "./main.py"]

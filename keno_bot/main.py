@@ -1,7 +1,6 @@
 import random
 import time
 import os
-from dotenv import load_dotenv
 from nextcord.ext import commands, tasks
 
 bot = commands.Bot()
